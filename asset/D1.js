@@ -11,17 +11,16 @@ REGOLE
   Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 */
 const string = "stringa";
-console.log("questo è un dato di tipo stringa(parole o frasi) :" + " " + string);
+console.log("questo è un dato di tipo stringa('parole') :" + " " + string);
 
 const number = 12;
 console.log("questo è un dato di tipo number (17) :" + " " + number);
 
 const boolean = true;
 const boolean2 = false;
-console.log("Questo è un datatype boolean (vero o falso) :" + boolean + " " + boolean2);
+console.log("Questo è un datatype boolean (vero o falso) :" + " " + boolean + " " + boolean2);
 
 let empty;
-
 console.log("Questo è un datatype" + " " + "all'interno non è stato ancora assegnato un valore :" + " " + empty);
 
 const not = null;
