@@ -22,7 +22,7 @@ console.log(`Questo è un datatype boolean (vero o falso) :` + boolean);
 console.log(`Questo è un datatype UNDEFINED, all'interno non è stato ancora assegnato un valore`);
 
 const not = null;
-console.log(`Questo è un datatype di tipo nullo :` + `` + null);
+console.log(`Questo è un datatype di tipo nullo (intenzionalmente lasciato vuoto) :` + `` + null);
 
 const entity = `simbolo`;
 console.log(`Questo è un datatype di tipo Symbol  :` + `` + entity);
