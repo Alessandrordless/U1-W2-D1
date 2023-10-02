@@ -11,10 +11,10 @@ REGOLE
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 */
 const string = `stringa`;
-console.log(`questo è un dato di tipo stringa (parole  o frasi) :` + ` ` + string);
+console.log(`questo è un dato di tipo stringa ("parole  o frasi") :` + ` ` + string);
 
 const number = 12;
-console.log(`questo è un dato di tipo number (numeri) :` + ` ` + number);
+console.log(`questo è un dato di tipo number (17) :` + ` ` + number);
 
 const boolean = "true or false";
 console.log(`Questo è un datatype boolean (vero o falso) :` + boolean);
@@ -36,7 +36,7 @@ console.log(name);
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
-console.log(12 + 20);
+console.log(number + 20);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
@@ -62,7 +62,7 @@ let name2 = "John";
 console.log(name1 !== name2);
 
 let result = name2.toLowerCase();
-console.log(name1 === name2);
+console.log(name1 !== name2);
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
